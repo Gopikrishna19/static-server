@@ -3,7 +3,9 @@
   "version": "0.2.0",
   "description": "Express static server with logging",
   "main": "index.js",
-  "bin": "bin/static-server.js",
+  "bin": {
+    "static-server": "bin/static-server.js"
+  },
   "author": "Gopikrishna Sathyamurthy",
   "license": "MIT",
   "dependencies": {
