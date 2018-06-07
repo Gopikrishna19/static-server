@@ -3,6 +3,11 @@
   "version": "0.0.0",
   "description": "Express static server with logging",
   "main": "index.js",
+  "bin": "bin/static-server.js",
   "author": "Gopikrishna Sathyamurthy",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.16.3",
+    "minimist": "1.2.0"
+  }
 }
