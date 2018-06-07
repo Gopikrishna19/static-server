@@ -36,7 +36,15 @@ npm i @gs-utils/static-server --port 9090
 
 Defaults to `src`. Can take multiple values.
 
-```
+```bash
 npm i @gs-utils/static-server --serve public
 npm i @gs-utils/static-server --serve public --serve assets
+```
+
+### `--livereload`
+
+Defaults to `true`. Install [livereload extension](http://livereload.com/extensions/) to enable it. To disable:
+
+```bash
+npm i @gs-utils/static-server --livereload false
 ```

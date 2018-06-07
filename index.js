@@ -1,4 +1,5 @@
 const express = require('express');
+const livereload = require('livereload');
 
 const app = express();
 
@@ -7,6 +8,10 @@ module.exports = options => {
   options.directories.forEach(directory => {
     app.use(express.static(directory));
   });
+
+  if (options.livereload) {
+    livereload.createServer().watch(options.directories);
+  }
 
   app.use((req, res, next) => {
     const resEnd = res.end;

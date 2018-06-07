@@ -5,8 +5,9 @@ const path = require('path');
 const args = require('minimist')(process.argv.slice(2));
 
 const options = Object.assign({
-  serve: 'src',
-  port: 8080
+  livereload: true,
+  port: 8080,
+  serve: 'src'
 }, args);
 
 Object.defineProperty(options, 'directories', {
