@@ -10,5 +10,6 @@
     "express": "4.16.3",
     "livereload": "0.7.0",
     "minimist": "1.2.0"
-  }
+  },
+  "repository": "Gopikrishna19/static-server"
 }
