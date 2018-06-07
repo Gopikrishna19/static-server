@@ -1,0 +1,8 @@
+{
+  "name": "@gopi/static-server",
+  "version": "0.0.0",
+  "description": "Express static server with logging",
+  "main": "index.js",
+  "author": "Gopikrishna Sathyamurthy",
+  "license": "MIT"
+}
