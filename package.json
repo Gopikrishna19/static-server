@@ -1,6 +1,6 @@
 {
   "name": "@gs-utils/static-server",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Express static server with logging",
   "main": "index.js",
   "bin": {
