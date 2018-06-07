@@ -1,5 +1,5 @@
 {
-  "name": "@gopi/static-server",
+  "name": "@gs-utils/static-server",
   "version": "0.0.0",
   "description": "Express static server with logging",
   "main": "index.js",
