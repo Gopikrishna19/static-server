@@ -11,14 +11,16 @@ npm i @gs-utils/static-server
 ### npx
 
 ```bash
-npx static-server
+npx static-server [-p @gs-utils/static-server] [--port <number|8080>] [--livereload <boolean|true>] [--serve <folderPath|src>]
 ```
 
 ### package.json
 
 ```json
 {
-  "scripts": "static-server"
+  "scripts": {
+    "start": "static-server"
+  }
 }
 ```
 
@@ -29,7 +31,7 @@ npx static-server
 Defaults to `8080`
 
 ```
-npm i @gs-utils/static-server --port 9090
+npx static-server --port 9090
 ```
 
 ### `--serve`
@@ -37,8 +39,8 @@ npm i @gs-utils/static-server --port 9090
 Defaults to `src`. Can take multiple values.
 
 ```bash
-npm i @gs-utils/static-server --serve public
-npm i @gs-utils/static-server --serve public --serve assets
+npx static-server --serve public
+npx static-server --serve public --serve assets
 ```
 
 ### `--livereload`
@@ -46,5 +48,5 @@ npm i @gs-utils/static-server --serve public --serve assets
 Defaults to `true`. Install [livereload extension](http://livereload.com/extensions/) to enable it. To disable:
 
 ```bash
-npm i @gs-utils/static-server --livereload false
+npx static-server --livereload false
 ```
