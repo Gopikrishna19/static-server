@@ -9,9 +9,9 @@
   "author": "Gopikrishna Sathyamurthy",
   "license": "MIT",
   "dependencies": {
-    "express": "4.16.3",
-    "livereload": "0.7.0",
-    "minimist": "1.2.0"
+    "express": "^4.17.1",
+    "livereload": "^0.9.1",
+    "minimist": "^1.2.5"
   },
   "repository": "Gopikrishna19/static-server"
 }
